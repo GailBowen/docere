@@ -1,12 +1,5 @@
-function doStuff()
-{
-    console.log('got here - oh yes!');
-    console.log(document.getElementById("txtName").value);
-    
-    //Live Server + Chrome Debugging :)
-    //alert("got here!!");
 
-}
+var fibonacci = new Fibonacci();
 
 function Fibonacci()
 {
@@ -19,8 +12,6 @@ function Fibonacci()
         this.number = newNumber;
     }
 }
-
-var fibonacci = new Fibonacci();
 
 function ChangeNumber()
 {
