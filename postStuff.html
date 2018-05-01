@@ -9,7 +9,8 @@
     <script src="postStuff.js"></script>
 </head>
 <body>
-    <form action="receivePostedStuff.html" name="mainForm" method="GET">
+    <form action="receivePostedStuff.html" name="mainForm" method="GET" 
+        onsubmit="return testValidationFailed();">
         Card Number:
         <input type="text" name="cardNumber" id="cardNumber">
         <input type="submit" value="validate"/>
