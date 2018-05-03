@@ -1,7 +1,8 @@
 div {
     background-color: purple;
-    opacity: 0.2;
     /*
+    opacity: 0.2;
+    
       0.2 = 20% opacity
       20% opacity == 80% transparency
     */
