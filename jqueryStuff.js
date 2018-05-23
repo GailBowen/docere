@@ -5,6 +5,8 @@ function doStuff()
 
 //$("#txtName").css("background", "purple");
 
-$("table td input").focus(function() 
-{$(this).parent().parent().css("background-color", "purple");});
+$("td input").focus(function() 
+{$(this).css("background-color", "purple");});
+
+$(":button").css("background-color", "red");
 
