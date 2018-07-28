@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="worker.css" />
+   
+</head>
+<body>
+    <h1>WebSocket API Example</h1>
+<div id="controls">
+    <label>Enter your message to send to the WebSocket server:</label>
+    <input type="text" id="message" />
+    <button type="button" id="sendbutton" onclick="sendMessage();">Send my message to the server</button>
+</div>
+<div id="info">
+    <p>
+        <strong>Status: </strong><span id="connectionstatus">Disconnected</span>
+    </p>
+</div>
+<br /><br />
+<button type="button" id="connect" onclick="closeConnection();">Disconnect from the WebSocket Server</button>
+
+<script src="worker.js"></script>
+</body>
+</html>
